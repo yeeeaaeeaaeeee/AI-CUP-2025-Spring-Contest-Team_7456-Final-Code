@@ -50,7 +50,7 @@ fg.feature_generate(test_path+'test_data/',test_path+'test_info.csv',test_path+'
 info = pd.read_csv(train_path + 'train_info.csv')
 x_train, y_train = dp.read_feature(info, train_feature_path, min_length, max_length, extra_length, block_length, test=False, cut_trail=False)
 
-# Imports
+# Import
 from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
 

@@ -9,6 +9,7 @@ data/39_Test_Dataset/
 data/train_feature/
 data/test_feature/
 data/*.zip
+!data/
 
 # Submission outputs
 submissions/
