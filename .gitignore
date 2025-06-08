@@ -31,3 +31,6 @@ Thumbs.db
 .env
 .venv/
 venv/
+
+# Test files
+cutpoint_count.py
